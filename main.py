@@ -4,7 +4,6 @@ import pandas_gbq
 from dotenv import load_dotenv
 from strava.oauth import refresh_access_token
 from strava.strava import get_activities, make_activities_df, enrich_activities_with_details
-from datetime import datetime
 
 load_dotenv()
 
